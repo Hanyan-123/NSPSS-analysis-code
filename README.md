@@ -4,10 +4,10 @@ SPSS and R syntax for the paper "Measuring Positive Stress Appraisal Among Nursi
 
 Files:
 
-- 01_random_split.sps: splits the 537 cases into the EFA (n = 277) and CFA (n = 260) subsamples. SPSS 31.0.2.0.
-- 02_efa_factor_retention.R: parallel analysis and MAP test, EFA subsample. R 4.6.0, psych 2.6.5, GPArotation 2026.8-2.
-- 03_cfa.R: the four CFA models and the scaled chi-square difference test (Model 3 vs Model 4), CFA subsample. R 4.6.0, lavaan 0.6.21.
-- 04_reliability_bootstrap.R: alpha and omega with bootstrap confidence intervals, full sample. R 4.6.0, psych 2.6.5.
+- random split.sps: splits the 537 cases into the EFA (n = 277) and CFA (n = 260) subsamples. SPSS 31.0.2.0.
+- efa factor retention.R: parallel analysis and MAP test, EFA subsample. R 4.6.0, psych 2.6.5, GPArotation 2026.8-2.
+- cfa.R: the four CFA models and the scaled chi-square difference test (Model 3 vs Model 4), CFA subsample. R 4.6.0, lavaan 0.6.21.
+- reliability bootstrap.R: alpha and omega with bootstrap confidence intervals, full sample. R 4.6.0, psych 2.6.5.
 
 The data are not included. Under the conditions of our ethics approval, participant-level data cannot be shared.
 
